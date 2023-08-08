@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 import com.sri.hibernate.domain.Contacts;
 import com.sri.hibernate.domain.Users;
 import com.sri.hibernate.repository.ContactsRepository;
-import com.sri.hibernate.repository.UserRepository;
 
 @Service
 public class ContactService {
