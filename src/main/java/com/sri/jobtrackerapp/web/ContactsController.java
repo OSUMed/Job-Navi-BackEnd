@@ -1,4 +1,4 @@
-package com.sri.hibernate.web;
+package com.sri.jobtrackerapp.web;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sri.hibernate.domain.Contacts;
-import com.sri.hibernate.service.ContactService;
+import com.sri.jobtrackerapp.domain.Contacts;
+import com.sri.jobtrackerapp.service.ContactService;
 
 @RestController
 @RequestMapping("/")

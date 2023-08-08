@@ -1,4 +1,4 @@
-package com.sri.hibernate.config;
+package com.sri.jobtrackerapp.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.sri.hibernate.service;
+package com.sri.jobtrackerapp.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sri.hibernate.domain.Applications;
-import com.sri.hibernate.repository.ApplicationsRepository;
+import com.sri.jobtrackerapp.domain.Applications;
+import com.sri.jobtrackerapp.repository.ApplicationsRepository;
 
 @Service
 public class ApplicationsService {

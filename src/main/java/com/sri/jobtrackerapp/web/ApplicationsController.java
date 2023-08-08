@@ -1,4 +1,4 @@
-package com.sri.hibernate.web;
+package com.sri.jobtrackerapp.web;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sri.hibernate.domain.Applications;
-import com.sri.hibernate.service.ApplicationsService;
+import com.sri.jobtrackerapp.domain.Applications;
+import com.sri.jobtrackerapp.service.ApplicationsService;
 
 @RestController
 @RequestMapping("/api")

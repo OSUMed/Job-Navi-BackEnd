@@ -1,4 +1,4 @@
-package com.sri.hibernate.domain;
+package com.sri.jobtrackerapp.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

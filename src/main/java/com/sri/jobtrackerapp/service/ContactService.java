@@ -1,4 +1,4 @@
-package com.sri.hibernate.service;
+package com.sri.jobtrackerapp.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.stereotype.Service;
 
-import com.sri.hibernate.domain.Contacts;
-import com.sri.hibernate.domain.Users;
-import com.sri.hibernate.repository.ContactsRepository;
+import com.sri.jobtrackerapp.domain.Contacts;
+import com.sri.jobtrackerapp.domain.Users;
+import com.sri.jobtrackerapp.repository.ContactsRepository;
 
 @Service
 public class ContactService {
