@@ -1,0 +1,53 @@
+<html xmlns:th="http://thymeleaf.org">
+
+<head>
+	<title>Users</title>
+</head>
+
+<body>
+	<h1>Users Srikanth</h1>
+
+	<div th:if="${#lists.size(users) == 1}">
+		<p th:text="${user.username}">Username: </p>
+		<p th:text="${user.password}"></p>
+		<p th:text="${user.name}"></p>
+		<p th:text="${user.userId}"></p>
+		<form method="post" action="">
+			<div>
+				<label for="name">Name</label>
+				<input th:field="${user.name}" type="text" name="name" placeholder="Update your name">
+			</div>
+			<div>
+				<label for="username">Username</label>
+				<input th:field="${user.username}" type="text" name="username" placeholder="Update your username">
+			</div>
+			<div>
+				<label for="password">Password</label>
+				<input th:field="${user.password}" type="password" name="password" placeholder="Update your password">
+			</div>
+			<div>
+				<input type="submit" value="Update Account">
+				<form th:action="@{/accounts/{userId}/delete(userId=${user.userId})}" method="post">
+					<input type="submit" value="Delete Account">
+				</form>
+			</div>
+		</form>
+
+	</div>
+	</div>
+	<div th:if="${#lists.size(users) != 1}">
+		<div th:each="user : ${users}">
+			<span th:text="${user.username}"></span>
+			<span th:text="${user.password}"></span>
+			<span th:text="${user.name}"></span>
+			<form th:action="@{/accounts/{userId}/delete(userId=${user.userId})}" method="post">
+				<input type="submit" value="Delete Account">
+			</form>
+			<hr />
+		</div>
+	</div>
+
+
+</body>
+
+</html>
