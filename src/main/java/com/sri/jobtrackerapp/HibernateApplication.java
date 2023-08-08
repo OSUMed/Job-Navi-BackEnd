@@ -5,7 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @SpringBootApplication
-@CrossOrigin(origins = "http://localhost:3000") // Specify the allowed origin for your frontend
+//@CrossOrigin(origins = "http://localhost:3000") // Specify the allowed origin for your frontend
+@CrossOrigin(origins = "jobtracker.up.railway.app") // Specify the allowed origin for your frontend
 public class HibernateApplication {
 
 	public static void main(String[] args) {
