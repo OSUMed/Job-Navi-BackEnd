@@ -1,4 +1,4 @@
-package com.sri.jobtrackerapp;
+package com.sri.jobtrackerapp ;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
