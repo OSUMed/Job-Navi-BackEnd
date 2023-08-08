@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.stereotype.Service;
 
 import com.sri.jobtrackerapp.domain.Contacts;
-import com.sri.jobtrackerapp.domain.Users;
 import com.sri.jobtrackerapp.repository.ContactsRepository;
 
 @Service
