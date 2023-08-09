@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.sri.jobtrackerapp.domain.Applications;
+import com.sri.jobtrackerapp.domain.Contacts;
 import com.sri.jobtrackerapp.service.ApplicationsService;
 
 @RestController
@@ -28,6 +29,10 @@ public class ApplicationsController {
     @GetMapping("/applications/{applicationId}")
     public Applications getOneApplication(@PathVariable Long applicationId) {
         return applicationsService.findOne(applicationId);
+    }
+    @PostMapping("/applications/{applicationId}")
+    public Applications updOneApplication(@RequestBody Applications application) {
+        return applicationsService.updateApplication(application);
     }
 
     @PostMapping("/applications")

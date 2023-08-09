@@ -15,7 +15,7 @@ import com.sri.jobtrackerapp.domain.Contacts;
 import com.sri.jobtrackerapp.service.ContactService;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/api")
 public class ContactsController {
 
     @Autowired
