@@ -1,10 +1,10 @@
 # Job Navi Web Application
 
-Welcome to the Job Navi web application! This project was developed using a combination of technologies including React, TypeScript, Java Spring Boot, Hibernate, Material UI, MySQL, Express.js, Mobx, and Google Cloud Platform.
+Welcome to the Job Navi web application! This project was developed using a combination of technologies including React, TypeScript, Java Spring Boot, Hibernate, Material UI, and MySQL.
 
 ## Live Site
 
-Access the live Job Tracker web application hosted on Netlify: [https://jobtrackerfe.netlify.app/](https://jobtrackerfe.netlify.app/)
+Access the live Job Navi web application hosted on Netlify: [https://jobtrackerfe.netlify.app/](https://jobtrackerfe.netlify.app/)
 
 ## Frontend Repo Github Link:
 
