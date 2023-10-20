@@ -14,7 +14,7 @@ public class CorsConfig {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**") // Allow all endpoints
-						.allowedOrigins("http://localhost:3000", "http://localhost:5176", "https://cors-anywhere-osu.up.railway.app", "https://jobtrackerfe.netlify.app",
+						.allowedOrigins("http://localhost:3000", "http://localhost:5176", "http://localhost:5177", "http://localhost:5178","http://localhost:5179", "https://cors-anywhere-osu.up.railway.app", "https://jobtrackerfe.netlify.app",
 								"https://jobtrackerbackend.up.railway.app")
 						.allowedMethods("GET", "POST", "PUT", "DELETE").allowedHeaders("*").allowCredentials(true);
 			}
